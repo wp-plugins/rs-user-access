@@ -1,0 +1,77 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+input.textMe {
+	width: 320px;
+}
+.clear {
+	clear: both;
+}
+
+.fltRight {
+	float: right;
+}
+
+.right {
+	text-align: right;
+}
+
+.mgTop5 {
+	margin-top: 5px
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.section {
+	margin: 5px 0 15px;
+	padding: 1px 12px;
+	background: #FFF;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+}
+
+.check-wrapper {
+	margin-bottom: 10px;
+	width: 200px;
+	float: left;
+}
+
+	.check-wrapper label {
+		margin-left: 10px;
+	}
+
+	.check-boxes {
+		margin: 0!important;
+	}
+
+.user-submit {
+	margin-top: 10px!important;
+}
+
+.parent-menu {
+	display: block;
+}
+	.parent-menu li {
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 200px;
+		margin: 0 20px 20px 0;
+		padding: 5px;
+		vertical-align: top;
+	}
+
+		.parent-menu li ul {
+			display: none;
+		}
+
+		.parent-menu li ul li {
+			margin: 0;
+		}
+
+		.parent-menu li.odd {
+			background-color: #F1F1F1;
+		}
+
+		.parent-menu .fa-angle-right {
+			margin-right: 10px;
+		}
